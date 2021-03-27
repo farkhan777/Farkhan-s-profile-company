@@ -256,7 +256,7 @@ main .background-site{
 }
 
 .profile p{
-    font-size: 1.5rem;
+    font-size: 16px;
     padding-bottom: 2rem;
     color: #222831;
 }
@@ -401,6 +401,66 @@ hr{
 
 .post-info span{
     color: #222831;
+}
+
+/* Categories */
+
+.list-items{
+    background-color: #ffb7c5;
+    padding: 1rem 1rem;
+    margin: 1.5rem 5rem;
+    border-radius: 10px;
+    width: 70%;
+    list-style: none;
+    transition: all 0.4s ease;
+}
+
+.list-items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.list-items a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-content h2{
+    margin: 2rem;
+    color: #222831;
+    font-size: 22px;
+}
+
+/* Popular Post */
+
+.right-content h2{
+    margin-top: 2rem;
+    color: #222831;
+    font-size: 22px;
+    text-align: left;
+}
+
+.popular-post .post-content{
+    padding: 3rem 0;
+}
+
+.popular-post .post-info{
+    padding: 0.4rem 0.4rem;
+    bottom: 9rem;
+    left: 0rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.popular-post .post-title{
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+.popular-post a{
+    font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
