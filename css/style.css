@@ -463,6 +463,48 @@ hr{
     font-size: 16px;
 }
 
+/* Post Search Bar */
+
+.right-content .search-box-content{
+    position: relative;
+    height: 70px;
+    width: 400px;
+    text-align: left;
+}
+
+.right-content .search-box-content input{
+    height: 50%;
+    width: 50%;
+    border: none;
+    outline: none;
+    background: #ffb7c5;
+    font-size: 13px;
+    border-radius: 50px;
+    padding: 0 10px 0 20px;
+    position: relative;
+    top: 32.5%;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+.right-content .search-box-content .search-btn{
+    position: absolute;
+    top: 49.6%;
+    right: 205px;
+    transform: translateY(-33%);
+    height: 30px;
+    width: 30px;
+    color: #ffb7c5;
+    background: #fff;
+    line-height: 30.8px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Media Query For Mobile Size */
+
 @media screen and (max-width: 768px) {
     
     /* Hamburger Menu for Navbar */
