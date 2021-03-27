@@ -468,13 +468,12 @@ hr{
 .right-content .search-box-content{
     position: relative;
     height: 70px;
-    width: 400px;
+    width: 200px;
     text-align: left;
 }
 
 .right-content .search-box-content input{
     height: 50%;
-    width: 50%;
     border: none;
     outline: none;
     background: #ffb7c5;
@@ -490,7 +489,7 @@ hr{
 .right-content .search-box-content .search-btn{
     position: absolute;
     top: 49.6%;
-    right: 205px;
+    right: -19px;
     transform: translateY(-33%);
     height: 30px;
     width: 30px;
@@ -501,6 +500,45 @@ hr{
     text-align: center;
     border-radius: 50px;
     cursor: pointer;
+}
+
+/* Fooooooooooooooooootttttteeeeeeeeeeeerrrrrrrrrrrrrrrrrr */
+
+.footer{
+    text-align: center;
+    background-color: #222831;
+    color: #fff;
+    padding: 8rem 3rem;
+    line-height: 2.5rem;
+}
+
+.footer h2{
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+
+.footer p{
+    font-size: 13px;
+    margin: 2rem 18rem 0rem 18rem;
+}
+
+.footer ul, .footer i{
+    list-style:none;
+    color: #ffb7c5;
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 18px;
+}
+
+.copy-right{
+    text-align: center;
+    background-color: #222831;
+    color: #fff;
+    font-size: 13px;
+    padding: 2rem;
+}
+
+.copy-right b{
+    color: #ffb7c5;
 }
 
 /* Media Query For Mobile Size */
